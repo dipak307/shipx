@@ -33,4 +33,13 @@ npm run dev
 ## for dashboard click on dashboard button which show in navbar or go to /dashboard
 
 
+# api instruction 
+- ShipX API Documentation
+- base url http://127.0.0.1:8000/api
+- POST	/inquiries	Create a new inquiry
+- PUT	/update-inquiry/{id}	Update an existing inquiry
+- GET	/single-inquiry/{id}	Get a single inquiry by ID
+- DELETE	/inquiry/{id}	Delete an inquiry
+- GET	/all-inquiry	Get all inquiries
+
 ---
