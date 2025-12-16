@@ -1,0 +1,34 @@
+
+## first clone this repository from github
+### Backend
+- Laravel 10+
+- REST API
+- MySQL
+- File Upload (Storage)
+- Xampp 
+- php 8+
+## ⚙️ Backend Setup (Laravel)
+
+-- copy env example file and add to .env file
+
+```bash
+cd backend
+composer install
+php artisan key:generate
+php artisan storage:link
+php artisan migrate
+php artisan serve
+
+
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Axios
+
+cd frontend
+npm install
+npm run dev
+
+
+---
