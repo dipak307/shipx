@@ -1,0 +1,15 @@
+# Laravel
+backend/vendor/
+backend/.env
+backend/node_modules/
+backend/storage/*.key
+backend/public/storage
+
+# React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS & Editor
+.DS_Store
+.vscode/
